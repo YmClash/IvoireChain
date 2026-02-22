@@ -5,7 +5,7 @@ use std::env;
 
 
 /// Application configuration loaded from environment variables.
-#[derive(Debug,Clone)]
+#[derive(Debug,Clone,Default)]
 pub struct Config {
     // Server
     pub server_host: String,
