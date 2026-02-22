@@ -72,7 +72,6 @@ impl AsRef<str> for PhoneNumber{
     }
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;

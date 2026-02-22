@@ -11,7 +11,6 @@ pub struct Money {
     centimes: i64,
 }
 
-
 impl Money{
     /// Create Money from centimes
     #[inline]
